@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_nwkx4FdFEeis_r8g5MxcZQ" name="purchases_3" dataPackage="_nwkx4VdFEeis_r8g5MxcZQ" Server="Localhost 127.0.0.1" FilePath="//EPBYMINW2469/Share_R/Student_2018/BI/Talend Data Integration/Topic 05 Exit Task/purchase_20130301.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_nwkx4VdFEeis_r8g5MxcZQ" name="default" dataManager="_nwkx4FdFEeis_r8g5MxcZQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_nwkx4ldFEeis_r8g5MxcZQ" id="_cSaFcFdFEeis_r8g5MxcZQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nwkx41dFEeis_r8g5MxcZQ" label="PaymentID" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nwkx5FdFEeis_r8g5MxcZQ" label="CustomerId" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nwkx5VdFEeis_r8g5MxcZQ" label="ProductId" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nwkx5ldFEeis_r8g5MxcZQ" label="TransactionDate" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nwkx51dFEeis_r8g5MxcZQ" label="CreditCard" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nwkx6FdFEeis_r8g5MxcZQ" label="CreditCardNumber" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
